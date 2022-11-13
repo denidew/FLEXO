@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container1 {
+    max-width: 800px;
+    margin: 15px 10px;
+    background-color: #fff;
+}
+
+.container1 .card.satu {
+    background-color: rgb(243, 140, 138);
+}
+
+.container1 .card.dua {
+    background-color: rgb(187, 243, 138);
+}
+
+.container1 .card.tiga {
+    background-color: rgb(138, 215, 243);
+}
+
+@media (min-width:600px) {
+    .container1 {
+        margin: 20px auto;
+        padding: 10PX;
+        display: flex;
+        justify-content: space-between;
+    }
+}
